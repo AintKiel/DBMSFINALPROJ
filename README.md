@@ -3,19 +3,19 @@
 </div>
 
 
-# Scholarship Management System with Java and MySQL
+# 🎓Scholarship Management System with Java and MySQL
 
 The Scholarship Management System is a Java-based application designed to manage qualifiers for scholarships. It integrates with a MySQL database to store, retrieve, and update information about applicants, including their academic qualifications and personal details. This system is an efficient way to maintain a centralized database for scholarship records, ensuring data accuracy and accessibility.
 
-# Key Features
+# ✨Key Features
 
-**1. Data Store and Management**
+**1. 📂Data Store and Management**
 
 Stores details of qualifiers, such as their name, educational background, and contact information.
 
 Separates qualifiers based on their educational level (e.g., college or senior high school).
 
-**2. CRUD Operations:**
+**2. 🔄CRUD Operations:**
 
 **Create:** Add new qualifiers to the system.
 
@@ -25,19 +25,19 @@ Separates qualifiers based on their educational level (e.g., college or senior h
 
 **Delete:** Remove qualifiers from the system.
 
-**3. Database Integration:**
+**3. 🗃️ Database Integration:**
 
 Built on a MySQL database to handle data storage with tables for qualifierslist, college_qualifiers, and senior_high_qualifiers.
 
 Foreign key relationships ensure referential integrity between tables.
 
-# Technology Stack
+# 🛠️Technology Stack
 
 **Programming Language:** Java
 
 **Database:** MySQL
 
-**Tools:**
+**⚙️Tools:**
 
 JDBC for database connectivity
 
@@ -45,9 +45,9 @@ dbdiagram.io for schema design
 
 GitHub for version control and collaboration
 
-# Database Schema
+# 🗺️Database Schema
 
-**Tables:**
+**📋 Tables:**
 
 qualifierslist - Stores general information about all qualifiers.
 
@@ -55,11 +55,11 @@ college_qualifiers - Specific table for college-level qualifiers.
 
 senior_high_qualifiers - Specific table for senior high school qualifiers.
 
-**Relationships:**
+**🔗Relationships:**
 
 qualifierslist serves as the parent table, linked to college_qualifiers and senior_high_qualifiers through the serial_number field.
 
-# Project Structure
+# 🗃️ Project Structure
 
 **Java Code:**
 DatabaseConnection.java: Handles all database operations.
@@ -76,7 +76,7 @@ schema.png: Visual representation of the database schema.
 
 README.md: Describes project setup, usage, and features.
 
-# How it Works
+# 🚀How it Works
 
 **Initialization:**
 
